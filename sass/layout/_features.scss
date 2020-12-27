@@ -28,16 +28,14 @@
 }
 
 .features-list__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 1.14);
+
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 .features-list__description {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
-  color: var(--secondary-text-color);
+  @include font(400, 14px, 1.72);
+
+  color: $secondary-text-color;
 }

@@ -26,10 +26,8 @@
   padding-bottom: 27px;
   background: rgba(47, 48, 58, 0.8);
 
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
+  @include font(700, 14px, 1.14);
+
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;

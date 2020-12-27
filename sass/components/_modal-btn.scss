@@ -10,11 +10,9 @@
   border-style: none;
   cursor: pointer;
 
-  font-family: var(--primary-font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  font-family: $primary-font;
+  @include font(700, 16px, 1.88);
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }

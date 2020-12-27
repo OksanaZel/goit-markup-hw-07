@@ -2,10 +2,8 @@
   display: block;
   margin-bottom: 20px;
 
-  font-family: var(--primary-font);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
+  font-family: $primary-font;
+  @include font(700, 14px, 1.14);
   text-transform: uppercase;
   color: #ffffff;
 }

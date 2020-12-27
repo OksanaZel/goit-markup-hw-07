@@ -13,24 +13,23 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-.hero.section {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+  &.section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 
-.hero .title {
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  & .title {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+    @include font(900, 44px, 1.36);
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }
